@@ -1,0 +1,11 @@
+{
+  "redirects": [
+    {
+      "source": "/burnby-strata-snow-plow-company/",
+      "destination": "/burnaby/",
+      "permanent": true
+    }
+  ],
+  "trailingSlash": true,
+  "cleanUrls": true
+}
