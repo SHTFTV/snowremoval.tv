@@ -1,11 +1,18 @@
 {
-  "redirects": [
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": "site",
+  "trailingSlash": true,
+  "headers": [
     {
-      "source": "/burnby-strata-snow-plow-company/",
-      "destination": "/burnaby/",
-      "permanent": true
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
     }
   ],
-  "trailingSlash": true,
-  "cleanUrls": true
+  "installCommand": ""
 }
