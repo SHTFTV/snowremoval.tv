@@ -13,3 +13,12 @@
  const escape=e=>{if(e.key==='Escape')dismiss();};
  root.querySelector('.close').addEventListener('click',dismiss);window.addEventListener('keydown',escape);
 })();
+
+
+// First-frost article discovery on the homepage and resources index.
+(function(){
+ if(!['/','/resources/','/resources'].includes(window.location.pathname)||document.getElementById('first-frost-guide'))return;
+ const host=document.querySelector('main')||document.querySelector('#main-content')||document.querySelector('#et-main-area');if(!host)return;
+ const section=document.createElement('section');section.id='first-frost-guide';section.style.cssText='margin:32px auto;padding:24px;max-width:1100px;background:#edf5fa;color:#102c40;border-radius:14px;font:18px/1.6 Arial,sans-serif';
+ section.innerHTML="<h2 style=\"font-size:28px;margin:0 0 16px\">First frost: time to prepare</h2><p><a style=\"color:#006a99;text-decoration:underline\" href=\"/first-frost-ice-melt-new-concrete-fraser-valley/\">First Frost: Is Your Ice-Control Plan Ready for New Concrete?</a></p><p>Prepare ice-control supplies in Langley, Abbotsford, Maple Ridge, Mission and Aldergrove while protecting new and stamped concrete.</p>";host.prepend(section);
+})();
