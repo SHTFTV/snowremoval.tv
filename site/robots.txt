@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /search/
-Sitemap: https://snowremoval.tv/sitemap_index.xml
+Sitemap: https://snowremoval.tv/sitemap.xml
