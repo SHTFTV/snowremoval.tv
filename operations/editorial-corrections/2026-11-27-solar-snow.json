@@ -1,0 +1,29 @@
+{
+  "site": "snowremoval.tv",
+  "slug": "snow-on-solar-panels-leave-it-or-clear-it",
+  "source": "Previously published public editorial record",
+  "originalPublishedAt": "2026-11-27T14:00:00+00:00",
+  "reviewedAt": "2026-11-27T17:30:14+00:00",
+  "baseCommit": "a039d562e3c233bbbf2961f570ec72385b24721c",
+  "reason": "Remove unsupported universal DIY solar-panel clearing advice and add the missing native Journal card.",
+  "changes": [
+    "Retain original title, date, slug and image URL.",
+    "Replace low-risk raking and blanket heavy-snow advice with system-specific qualified assessment.",
+    "Link primary DOE, manufacturer and WorkSafeBC guidance near claims.",
+    "Match description and discovery copy to the corrected safety advice."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Energy: solar photovoltaic resilience in winter weather",
+      "url": "https://www.energy.gov/cmei/femp/solar-photovoltaic-hardening-resilience-winter-weather"
+    },
+    {
+      "title": "Canadian Solar: installation manual, maintenance and cleaning guidance (sections 7–8)",
+      "url": "https://www.canadiansolar.com/wp-content/uploads/sites/3/2026/01/CS_Installation-Manual_PV-Modules_EN-v3.1-EN.pdf"
+    },
+    {
+      "title": "WorkSafeBC: fall-protection planning and requirements",
+      "url": "https://www.worksafebc.com/en/health-safety/tools-machinery-equipment/fall-protection"
+    }
+  ]
+}
